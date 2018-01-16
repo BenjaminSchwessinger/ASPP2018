@@ -1,6 +1,14 @@
 """
 Author : Seetha Krishnan
 Stream from webcam
+
+Opencv-Python containes libraries that are python wrappers
+for computationally intensive codes written in C/C++.
+So, the code is as fast as original C/C++ code
+(since that is what is running in the background)
+and second, it is much easier to code in Python.
+This is how OpenCV-Python works
+
 """
 import cv2
 import numpy as np

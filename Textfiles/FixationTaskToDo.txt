@@ -1,0 +1,35 @@
+#TODO: Figure out how to set the strobe pin
+#TODO: If the program crashes, it will start at 2 the next time it runs
+#TODO: Aborting the calibration too many times hangs the program
+#TODO: Finalize encoding of target/distractor location/identity
+#TODO: Find a way to reward only when a fixation is accepted during calibration
+#FIXME: Reset all counters when the subject name changes
+#FIXME: The program crashes sometimes, possibility after overlaying the video on top of the gray screen
+#TODO: Use a pulsating dot as the calibration target
+#TODO: Use video as tracking stimulus
+#FIXME: Look into why rewarded fixations appear to fall outside the allowed window.
+#TODO: Add uncertainty to the fixation tracking
+#TODO: Maintain a count of total reward, correct, and incorrect trials for the day
+#TODO: Use a moving grating as the calibration target. Right now he is just glancing at the dots/banana, but looks away too quickly to identify a fixation
+#TODO: Put a camera so that we can observe the monkey while he works
+#TODO: Try using a texture as mouse cursor during the calibration (perhaps an insect of some kind) to attract the monkey's attention. Or, just drag a picture around.
+#TODO: Try using 'return' key callback to give reward when a calibration point is accepted
+#TODO: Bring a notebook so that we can keep notes during the experiment
+#TODO: Have a separate calibration task (maybe not)
+#FIXME: randomize calibration spot during calibration
+#FIXME: run a check to ensure that the monkey does not enter other locations other than the target in the response window
+#TODO: Install pygit2 on the windows computer
+#TODO: Make sure we can send strobes through the parallel port
+#FIXME: Make sure we align the trials to the screen flip
+#TODO: Figure out why python crashes
+#TODO: Add target crosses in the fixation task as well.
+#TODO: Separate experimental time into time on task and idle time
+#FIXME: Randomly cycle through fixation locations which can be interrupted, should be resumed when done
+#TODO: Adjust ITI according to the motivation of the monkey
+#TODO: Look into using the 'tracked' field of the eyelink sample to check blinks
+#TODO: Look into having a separate calibration button
+#TODO: Try using 2kHz sampling for eyelink
+#FIXME: Add feedback on the experimenter's plot on how many trials have been completed
+#TODO: Add drift correct. We might be better off just recalibrating
+#TODO: Create a file writing module to keep track of version number of the settings
+
